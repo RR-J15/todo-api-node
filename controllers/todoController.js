@@ -21,7 +21,7 @@ try{
     return res.status (404). json ({message :" Tache non trouvee "});
     }
 }catch( error ){
- res.json ({ message : "Tache mise a jouravec succes " , todo });
+ res.json ({ message : "Tache mise a jour avec succes " , todo });
  res.status (500). json ({ message : "Erreur serveur" });
     }
 };
